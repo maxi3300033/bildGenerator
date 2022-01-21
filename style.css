@@ -1,0 +1,33 @@
+body, button {
+  background-color: cornflowerblue
+}
+
+h1, h3, button, p {
+  color: white;
+  text-align: center;
+  font-family: poppins
+}
+
+img, button {
+  display: block;
+  margin: 20px auto;
+  border: 2px solid white
+}
+
+img {
+  height: 450px;
+}
+
+button {
+  height: 60px;
+  width: 180px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: RoyalBlue;
+}
+
+button:active {
+  background-color: SteelBlue;
+}
